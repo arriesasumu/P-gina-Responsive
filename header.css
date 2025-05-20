@@ -1,0 +1,41 @@
+/* Layout. */
+
+/* Estilos. */
+.header-nav {
+    display: flex; /* Usa flexbox para el layout del nav */
+    justify-content: space-around; /* Espacia los elementos uniformemente */
+    align-items: center; /* Centra verticalmente los elementos */
+    width: 100%; /* Ocupa todo el ancho */
+    height: 52px; /* Altura fija */
+    padding: 10px; /* Espaciado interno */
+}
+.titulo {
+    color: #666666; /* Color gris para el texto */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 20px; /* Tamaño de fuente grande */
+}
+.menu {
+    display: flex; /* Muestra los elementos de la lista en línea */
+    gap: 20px; /* Espacio entre los elementos */
+    list-style: none; /* Elimina los puntos de la lista */
+}
+.opcion, .boton {
+    text-decoration: none; /* Sin subrayado */
+    color: #666666; /* Color gris */
+    font-size: 14px; /* Tamaño de fuente */
+    line-height: 1.4; /* Altura de línea */
+    border-radius: 4px; /* Bordes redondeados */
+}
+.boton {
+    text-decoration: none; /* Sin subrayado */
+    color: #428bca; /* Color azul para el texto */
+    border-radius: 20px; /* Bordes muy redondeados */
+    border: 1px solid #3071a9; /* Borde azul */
+    font-size: 14px; /* Tamaño de fuente */
+    padding: 5px 10px; /* Espaciado interno */
+}
+/* Pruebas. */
+/* .header-nav {
+    border: 2px solid green;
+} */

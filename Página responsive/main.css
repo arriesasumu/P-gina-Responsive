@@ -1,0 +1,92 @@
+/* Layout. */
+
+/* Estilos. */
+main {
+    margin: 0 10px; /* Margen lateral */
+    justify-items: center; /* Centra los elementos hijos en el grid */
+}
+
+.info {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 600px; /* Máximo ancho */
+    margin: 10px 0px; /* Margen vertical */
+    justify-items: center; /* Centra los elementos hijos */
+}
+.info h1 {
+    font-size: 30px; /* Tamaño de fuente grande */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    color: #333; /* Color oscuro */
+    font-weight: 400; /* Peso de fuente normal */
+    line-height: 1.2; /* Altura de línea */
+    margin: 0 0 20px; /* Margen inferior */
+}
+.info p {
+    color: #666; /* Color gris */
+    font-size: 17px; /* Tamaño de fuente */
+    line-height: 1.625; /* Altura de línea */
+    text-align: center; /* Centra el texto */
+    margin: 0 0 20px; /* Margen inferior */
+}
+.info a {
+    text-decoration: none; /* Sin subrayado */
+    font-size: 18px; /* Tamaño de fuente */
+    letter-spacing: 1px; /* Espaciado entre letras */
+    font-weight: 600; /* Fuente en negrita */
+    color: white; /* Texto blanco */
+    border-radius: 20px; /* Bordes redondeados */
+    background-color: #428bca; /* Fondo azul */
+    padding: 10px 20px; /* Espaciado interno */
+}
+
+.destacados {
+    margin: 20px auto; /* Margen vertical y centrado horizontal */
+    max-width: 1140px; /* Máximo ancho */
+    column-gap: 32px; /* Espacio entre columnas */
+    display: grid; /* Usa grid para el layout */
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
+    justify-content: center; /* Centra el contenido */
+    text-align: center; /* Centra el texto */
+    width: 100%; /* Ocupa todo el ancho */
+}
+.destacado {
+    color: #428bca; /* Color azul */
+    font-size: 17px; /* Tamaño de fuente */
+    font-weight: 400; /* Peso normal */
+    line-height: 1.625; /* Altura de línea */
+    text-align: center; /* Centra el texto */
+}
+
+.tarjetas {
+    width: 100%; /* Ocupa todo el ancho */
+    max-width: 1140px; /* Máximo ancho */
+    gap: 32px; /* Espacio entre tarjetas */
+    display: grid; /* Usa grid para el layout */
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
+}
+.tarjeta {
+    text-decoration: none; /* Sin subrayado */
+    justify-items: center; /* Centra los elementos hijos */
+    width: 100%; /* Ocupa todo el ancho de la columna */
+    border: 1px solid #e6e6e6; /* Borde gris claro */
+}
+.tarjeta > * {
+    padding: 15px; /* Espaciado interno para todos los hijos directos */
+}
+.tarjeta img {
+    height: 125px; /* Altura fija para las imágenes */
+}
+.tarjeta h3 {
+    min-height: 50px; /* Altura mínima */
+    color: #4489C8; /* Color azul */
+    font-size: 20px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    line-height: 1.2; /* Altura de línea */
+    text-align: center; /* Centra el texto */
+}
+.tarjeta p {
+    color: #666666; /* Color gris */
+    font-size: 14px; /* Tamaño de fuente */
+    font-weight: 400; /* Peso normal */
+    line-height: 1.5; /* Altura de línea */
+    text-align: center; /* Centra el texto */
+}

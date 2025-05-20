@@ -1,0 +1,25 @@
+/* 
+Estas media queries sirven para adaptar el diseño de la página a diferentes tamaños de pantalla (responsive design).
+Permiten modificar los estilos de los elementos definidos en boluda.css, header.css y main.css según el ancho del dispositivo.
+Por ejemplo, puedes cambiar el número de columnas, el tamaño de los textos o el layout del menú en móviles y tablets.
+*/
+
+/* Cuando la pantalla es menor o igual a 1110px */
+@media (max-width: 1110px) {
+    /* Aquí puedes ajustar el layout de tarjetas, destacados, menú, etc. */
+}
+
+/* Cuando la pantalla es menor o igual a 1050px */
+@media (max-width: 1050px) {
+    /* Aquí puedes modificar tamaños, márgenes o disposición de elementos */
+}
+
+/* Cuando la pantalla es menor o igual a 825px */
+@media (max-width: 825px) {
+    /* Aquí puedes cambiar el menú a vertical, reducir columnas, etc. */
+}
+
+/* Cuando la pantalla es menor o igual a 768px (típico para móviles) */
+@media (max-width: 768px) {
+    /* Aquí puedes poner estilos para móviles, como una sola columna en tarjetas */
+}
